@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>labyrinth.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\labyrinth.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,10 +47,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Flashing_wall.cs">
+    <Compile Include="LabyrinthObjects\Flashing_wall.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Flashing_wall.Designer.cs">
+    <Compile Include="LabyrinthObjects\Flashing_wall.Designer.cs">
       <DependentUpon>Flashing_wall.cs</DependentUpon>
     </Compile>
     <Compile Include="LabyrinthObjects\Ice.cs">
@@ -128,7 +128,7 @@
     <Compile Include="LabyrinthObjects\Wall.Designer.cs">
       <DependentUpon>Wall.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Flashing_wall.resx">
+    <EmbeddedResource Include="LabyrinthObjects\Flashing_wall.resx">
       <DependentUpon>Flashing_wall.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LabyrinthObjects\Ice.resx">
@@ -210,7 +210,7 @@
     <EmbeddedResource Include="Resources\labyrinth.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="labyrinth.ico" />
+    <Content Include="Resources\labyrinth.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
