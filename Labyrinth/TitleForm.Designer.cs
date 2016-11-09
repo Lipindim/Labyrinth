@@ -32,6 +32,7 @@
             this.btnStart = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.cbIsSound = new System.Windows.Forms.CheckBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnStart
@@ -73,13 +74,26 @@
             this.cbIsSound.UseVisualStyleBackColor = false;
             this.cbIsSound.CheckedChanged += new System.EventHandler(this.cbIsSound_CheckedChanged);
             // 
-            // FormMain
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.ForeColor = System.Drawing.Color.Gainsboro;
+            this.label1.Location = new System.Drawing.Point(348, 394);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(202, 16);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Разработчик: Липин Дмитрий";
+            // 
+            // TitleForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Labyrinth.Properties.Resources.labyrinth;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(547, 410);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.cbIsSound);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnStart);
@@ -89,7 +103,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "FormMain";
+            this.Name = "TitleForm";
             this.Text = "Лабиринт";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -101,6 +115,7 @@
         private System.Windows.Forms.Button btnStart;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.CheckBox cbIsSound;
+        private System.Windows.Forms.Label label1;
     }
 }
 
