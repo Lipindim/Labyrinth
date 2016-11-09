@@ -42,11 +42,6 @@ C:\Users\Admin\Documents\Visual Studio 2015\Projects\Labyrinth\Labyrinth\obj\Deb
 D:\Repository\Labyrinth\Labyrinth\bin\Debug\Labyrinth.exe.config
 D:\Repository\Labyrinth\Labyrinth\obj\Debug\Labyrinth.exe
 D:\Repository\Labyrinth\Labyrinth\obj\Debug\Labyrinth.pdb
-D:\Repository\Labyrinth\Labyrinth\bin\Debug\Resources\fail.wav
-D:\Repository\Labyrinth\Labyrinth\bin\Debug\Resources\finish.wav
-D:\Repository\Labyrinth\Labyrinth\bin\Debug\Resources\victory.wav
-D:\Repository\Labyrinth\Labyrinth\bin\Debug\Resources\key.wav
-D:\Repository\Labyrinth\Labyrinth\bin\Debug\Resources\start.wav
 D:\Repository\Labyrinth\Labyrinth\bin\Debug\Labyrinth.exe
 D:\Repository\Labyrinth\Labyrinth\bin\Debug\Labyrinth.pdb
 D:\Repository\Labyrinth\Labyrinth\obj\Debug\Labyrinth.csprojResolveAssemblyReference.cache

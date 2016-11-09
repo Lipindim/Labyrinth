@@ -14,7 +14,7 @@ namespace Labyrinth
         {
             if (MusicOn)
             {
-                SoundPlayer _player = new SoundPlayer(string.Format("Resources\\{0}.wav", aSound));
+                SoundPlayer _player = new SoundPlayer(Properties.Resources.ResourceManager.GetStream(aSound.ToString()));
                 _player.Play();
             }
         }
