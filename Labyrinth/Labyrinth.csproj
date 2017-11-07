@@ -101,6 +101,12 @@
     <Compile Include="LabyrinthObjects\Door.Designer.cs">
       <DependentUpon>Door.cs</DependentUpon>
     </Compile>
+    <Compile Include="Levels\Level05.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Levels\Level05.Designer.cs">
+      <DependentUpon>Level05.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -159,6 +165,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LabyrinthObjects\Door.resx">
       <DependentUpon>Door.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Levels\Level05.resx">
+      <DependentUpon>Level05.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TitleForm.resx">
       <DependentUpon>TitleForm.cs</DependentUpon>
